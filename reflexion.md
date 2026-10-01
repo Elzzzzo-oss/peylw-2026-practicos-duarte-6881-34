@@ -11,3 +11,12 @@ Porque si usás solo <div>, la página es literalmente una caja adentro de otra 
 En la compu al abrí el archivo index.html en el navegador y le fui dando clic a los botones del menú. Me fijé que al tocar "Acerca de" me llevara a acercade.html y que al tocar "Inicio" me devolviera a index.html sin que tire error de página no encontrada.
 
 En GitHub Pages una vez que subí todo a GitHub y activé el link de la página, entré desde el celular y la compu para probar los mismos links. Como usé rutas relativas (es decir, puse solo index.html y no la ruta de mi disco C:\Users..), los enlaces funcionaron de una tanto en mi compu como en internet.
+
+
+----------------------------------------------------------------------------------------------------------
+
+<input type="text" 
+       id="cp" 
+       name="cp" 
+       pattern="^[A-Z]\d{4}[A-Z]{3}$" 
+       title="Debe ingresar el formato oficial argentino: 1 letra mayúscula, 4 números y 3 letras mayúsculas (Ej: R8500AAF)">
