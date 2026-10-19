@@ -17,3 +17,14 @@ Explique con sus palabras cuál es la diferencia entre el área de preparación 
 
 Token: peylw-2026-practico-duarte-6881-34
 
+
+# Reflexión Aplicada - TP3
+
+# 1. Código HTML literal del Código Postal
+```html
+<label for="cp">Código Postal (*):</label>
+<input type="text" 
+       id="cp" 
+       name="cp" 
+       pattern="^[A-Z]\d{4}[A-Z]{3}$" 
+       title="Debe ingresar el formato oficial argentino: 1 letra mayúscula, 4 números y 3 letras mayúsculas (Ej: R8500AAF)">
