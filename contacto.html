@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="top"></div>
+
+    <header>
+        <h1>Mi Portafolio</h1>
+        <img src="logo-curza.jpeg/img" alt="Logo CURZA" class="logo-curza">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacto y Horarios</h2>
+        
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+
+            <button type="submit" style="padding: 10px; background-color: var(--primary-color); color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">Enviar</button>
+        </form>
+
+        <h3 style="margin-top: 2rem;">Disponibilidad</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes a Viernes</td>
+                    <td>14:00 - 20:00</td>
+                    <td>Cursada y Prácticos en CURZA</td>
+                </tr>
+                <tr>
+                    <td>Sábados</td>
+                    <td>Libre</td>
+                    <td>Proyectos independientes</td>
+                </tr>
+                <tr>
+                    <td>Domingos</td>
+                    <td>Libre</td>
+                    <td>Descanso</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <a href="#top" class="btn-top" title="Volver arriba">▲</a>
+</body>
+</html>
